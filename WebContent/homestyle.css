@@ -1,0 +1,105 @@
+
+/*styling body*/
+body{
+	margin: 0;	
+	padding: 0;
+}
+
+
+/* styling header */
+header {
+	margin: 0;
+	background-color: white;
+	color: black;	
+	font-family: Comic Sans MS;
+	height: 100px;
+	padding: 5px;
+
+	/*border: 1px solid;
+	border-color: darkblue;*/
+}
+
+/* styling navigation bar*/
+nav{
+	margin: 0;
+	height: 50px;
+	background-color:rgb(61,55,103);
+   /* padding-top: 10px;
+	padding-left: 30px;*/
+	font-family: Comic Sans MS;
+	
+}
+
+
+/* styling maincontent */
+section{
+	margin: 0;
+	height: 400px;
+	background-color: #F5F5F5;
+	padding: 20px;
+	background: url('image.jpeg');
+	
+}
+
+
+
+/* styling footer */
+footer {
+	padding: 5px;
+	margin: 0;
+	bottom:0;
+	height: 40px;
+	background-color:rgb(61,55,103);
+	color:white;	
+	font-family: Comic Sans MS;
+	/*border: 3px solid;
+	border-color: blue;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(225,131,80);
+}
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/*Registration*/
+.registration
+{
+  width: 360px;
+	height: 440px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top:65%;
+	bottom:100%;
+	left: 60%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+	margin: 10px;
+}
